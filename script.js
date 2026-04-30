@@ -19,7 +19,7 @@ function switchPage(targetPageId) {
         }
     });
 
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    //window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 navPageLinks.forEach(link => {
