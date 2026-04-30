@@ -18,8 +18,6 @@ function switchPage(targetPageId) {
             link.classList.add('active');
         }
     });
-
-    //window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 navPageLinks.forEach(link => {
