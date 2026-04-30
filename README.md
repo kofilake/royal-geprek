@@ -1,9 +1,7 @@
 Changelog :
-- Changed Ala Carte to Ayam Geprek
-- Changed copyright date from 2025 to 2026
-- Removed the ojol icons, client hasn't confirmed whether they have it set up yet or not
+- Rework the menu.html 
+- Added Javascript for better Quality of Life
+- Improved mobile view
 
-Need to change :
-- Email address
-- Location address
-- Client's name
+Need to add :
+- When click the card menu will redirect to online shop

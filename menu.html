@@ -1,5 +1,5 @@
-    <!DOCTYPE html>
-    <html lang="id">
+<!DOCTYPE html>
+    <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +14,7 @@
             <nav>
                 <ul>
                     <li><a href="index.html">HOME</a></li>
-                    <li><a href="https://wa.me/6287822245787">CONTACT</a></li>
+                    <li><a href="#" onclick="myFunction()">CONTACT</a></li>
                 </ul>
             </nav>
         </header>
@@ -24,129 +24,214 @@
 
             </div>
         </section>
-        <section class="menu-section">
-            <div class="menu-grid">
-                <details class="menu-card">
-                    <summary class="menu-caption">Paket Ayam Geprek</summary>
-                    <div class="menu-body">
-                        <div class="menu-image menu-item1" role="img" aria-label="Ayam Geprek"></div>
-                        <h2 style="color: black;">Nasi Ayam Dengan Es Teh</h2>
-                        <div class="menu-content">
-                                <table>
-                                    <tr>
-                                        <td>Paket Nasi Sayap</td>
-                                        <td>Rp13.000</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Paket Nasi Dada</td>
-                                        <td>Rp15.000</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Paket Nasi Paha Bawah</td>
-                                        <td>Rp15.000</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Paket Nasi Paha Atas</td>
-                                        <td>Rp17.000</td>
-                                    </tr>
-                                </table>
-                            <!--<h2><p>Pesan Sekarang</p></h2>
-                            <div class="order-icons">
-                            <a href=""><img src="asset/RG-circle.png" alt="Gojek" style="width:50px;height:50px;"></a>
-                            <a href=""><img src="asset/RG-circle.png" alt="Grab" style="width:50px;height:50px;"></a>
-                            <a href=""><img src="asset/RG-circle.png" alt="ShopeeFood" style="width:50px;height:50px;"></a>
-                            </div>-->
-                        </div>
+    <div class="container">
+        <div class="navbar">
+            <a href="#" class="nav-page active" data-page="konten1">All Menu</a>
+            <a href="#" class="nav-page" data-page="konten2">Paket Hemat</a>
+            <a href="#" class="nav-page" data-page="konten3">Paket Nasi</a>
+            <a href="#" class="nav-page" data-page="konten4">Minuman</a>
+        </div>
+
+        <section id="konten1" class="page active-page">
+    
+        <div class="grid">
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="asset/geprekteh.png" alt="">
+                </div>
+                <div class="card-footer">
+                    <p>Paket Paha Atas + Esteh</p>
+                    <div class="price-section">
+                        <span class="price">Rp.17000</span>
                     </div>
-                </details>
-                <details class="menu-card">
-                    <summary class="menu-caption">Ayam Geprek</summary>
-                    <div class="menu-body">
-                        <div class="menu-image menu-item2" role="img" aria-label="Minuman"></div>
-                        <div class="menu-content">
-                            <h2>Nasi Ayam Geprek</h2>
-                            <table>
-                                    <tr>
-                                        <td>Nasi Sayap</td>
-                                        <td>Rp11.000</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Nasi Dada</td>
-                                        <td>Rp13.000</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Nasi Paha Bawah</td>
-                                        <td>Rp13.000</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Nasi Paha Atas</td>
-                                        <td>Rp15.000</td>
-                                    </tr>
-                                </table>
-                            <!--<h2><p>Pesan Sekarang</p></h2>
-                            <div class="order-icons">
-                            <a href=""><img src="asset/RG-circle.png" alt="Gojek" style="width:50px;height:50px;"></a>
-                            <a href=""><img src="asset/RG-circle.png" alt="Grab" style="width:50px;height:50px;"></a>
-                            <a href=""><img src="asset/RG-circle.png" alt="ShopeeFood" style="width:50px;height:50px;"></a>
-                            </div>-->
-                        </div>
-                    </div>
-                </details>
-                <details class="menu-card">
-                    <summary class="menu-caption">Minuman</summary>
-                    <div class="menu-body">
-                        <div class="menu-image menu-item3" role="img" aria-label="Ala Carte"></div>
-                        <div class="menu-content">
-                            <h2>Minuman Es/Panas</h2>
-                            <table>
-                                    <tr>
-                                        <td>Teh</td>
-                                        <td>Rp3.000</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Nutrisari</td>
-                                        <td>Rp3.000</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Cappucino</td>
-                                        <td>Rp5.000</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Coklat</td>
-                                        <td>Rp5.000</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Teh Tarik</td>
-                                        <td>Rp5.000</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Milo 3 in 1</td>
-                                        <td>Rp6.000</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Lemon Tea</td>
-                                        <td>Rp3.000</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Air Es</td>
-                                        <td>Rp1.000</td>
-                                    </tr>
-                                </table>
-                            <!--<h2><p>Pesan Sekarang</p></h2>
-                            <div class="order-icons">
-                            <a href=""><img src="asset/RG-circle.png" alt="Gojek" style="width:50px;height:50px;"></a>
-                            <a href=""><img src="asset/RG-circle.png" alt="Grab" style="width:50px;height:50px;"></a>
-                            <a href=""><img src="asset/RG-circle.png" alt="ShopeeFood" style="width:50px;height:50px;"></a>
-                            </div>-->
-                        </div>
-                    </div>
-                </details>
+                </div>
             </div>
-        </section>
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="asset/geprekteh.png" alt="">
+                </div>
+                <div class="card-footer">
+                    <p>Paket Dada + Esteh</p>
+                    <div class="price-section">
+                        <span class="price">Rp.17000</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="asset/geprek.png" alt="">
+                </div>
+                <div class="card-footer">
+                    <p>Paha Atas + Nasi</p>
+                    <div class="price-section">
+                        <span class="price">Rp.15000</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="asset/geprekC.png" alt="">
+                </div>
+                <div class="card-footer">
+                    <p>Dada + Nasi</p>
+                    <div class="price-section">
+                        <span class="price">Rp.15000</span>
+                    </div>
+                </div>
+            </div>
+ 
+            
+             <div class="card">
+                <div class="card-image">
+                    <img src="asset/geprek.png" alt="Paha Atas">
+                </div>
+                <div class="card-footer">
+                    <p>Paha Atas</p>
+                    <div class="price-section">
+                        <span class="price">Rp.13000</span>
+                    </div>
+                </div>
+            </div>
+
+             <div class="card">
+                <div class="card-image">
+                    <img src="asset/geprekC.png" alt="Dada">
+                </div>
+                <div class="card-footer">
+                    <p>Dada</p>
+                    <div class="price-section">
+                        <span class="price">Rp.13000</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="asset/estehC.png" alt="Es Teh">
+                </div>
+                <div class="card-footer">
+                    <p>Es Teh</p>
+                    <div class="price-section">
+                        <span class="price">Rp.3000</span>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="konten2" class="page">
+    
+        <div class="grid">
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="asset/geprekteh.png" alt="">
+                </div>
+                <div class="card-footer">
+                    <p>Paket Paha Atas + Esteh</p>
+                    <div class="price-section">
+                        <span class="price">Rp.17000</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="asset/geprekteh.png" alt="">
+                </div>
+                <div class="card-footer">
+                    <p>Paket Dada + Esteh</p>
+                    <div class="price-section">
+                        <span class="price">Rp.17000</span>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+        <section id="konten3" class="page">
+    
+        <div class="grid">
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="asset/geprek.png" alt="">
+                </div>
+                <div class="card-footer">
+                    <p>Paha Atas + Nasi</p>
+                    <div class="price-section">
+                        <span class="price">Rp.15000</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="asset/geprekC.png" alt="">
+                </div>
+                <div class="card-footer">
+                    <p>Dada + Nasi</p>
+                    <div class="price-section">
+                        <span class="price">Rp.15000</span>
+                    </div>
+                </div>
+            </div>
+ 
+            
+             <div class="card">
+                <div class="card-image">
+                    <img src="asset/geprek.png" alt="Paha Atas">
+                </div>
+                <div class="card-footer">
+                    <p>Paha Atas</p>
+                    <div class="price-section">
+                        <span class="price">Rp.13000</span>
+                    </div>
+                </div>
+            </div>
+            
+             <div class="card">
+                <div class="card-image">
+                    <img src="asset/geprekC.png" alt="Dada">
+                </div>
+                <div class="card-footer">
+                    <p>Dada</p>
+                    <div class="price-section">
+                        <span class="price">Rp.13000</span>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+
+    <section id="konten4" class="page">
+    
+        <div class="grid">
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="asset/estehC.png" alt="Es Teh">
+                </div>
+                <div class="card-footer">
+                    <p>Es Teh</p>
+                    <div class="price-section">
+                        <span class="price">Rp.3000</span>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+
+
+    </div>
+
         <section class="footer">
         <footer>
-            <p>&copy; 2026 Royal Geprek. All Rights Reserved.</p>
+            <p>&copy; 2025 Royal Geprek. All Rights Reserved.</p>
         </footer>
-        </section> 
+        </section>
+        <script src="script.js"></script>
     </body>
     </html>
