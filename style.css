@@ -104,21 +104,6 @@ nav ul li.active {
     background-color: #203766;
 }
 
-/* Mobile View (body) */
-@media (max-width: 700px) {
-    .content {
-        flex-direction: column;   /* logo di atas, teks di bawah */
-        align-items: center;
-        padding: 24px;
-        text-align: center;
-    }
-
-    .btn-section {
-    display: flex;
-    justify-content: center;
-}
-}
-
 .logo-section {
     text-align: center;
     margin-right: 20px;
@@ -281,12 +266,28 @@ button.btn-menu {
     opacity: 0.8;
 }
 
-/* column card left right + navbar column on mobile */
+/* Mobile View */
 @media (max-width: 768px) {
+    .content {
+        flex-direction: column;   /* logo di atas, teks di bawah */
+        align-items: center;
+        padding: 24px;
+        text-align: center;
+    }
+
+    .btn-section {
+        display: flex;
+        justify-content: center;
+    }
+    
     .grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
+    }
+
+    nav ul li {
+        opacity: 1;
     }
 
     .card {
@@ -300,6 +301,11 @@ button.btn-menu {
         align-items: flex-start;
         text-align: center;
     }
+}
+
+/* Mobile View (body) */
+@media (max-width: 700px) {
+    
 }
 
 
