@@ -30,7 +30,7 @@ navPageLinks.forEach(link => {
 
 
 function whatsappDialogue() {
-  if (confirm("Redirecting to WhatsApp...")) {
+  if (confirm("Membuka WhatsApp...")) {
     window.location.href = "https://wa.me/6287822245787"; 
   } else {
     e.preventDefault();
