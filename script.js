@@ -29,7 +29,7 @@ navPageLinks.forEach(link => {
 });
 
 
-function myFunction() {
+function whatsappDialogue() {
   if (confirm("Redirecting to WhatsApp...")) {
     window.location.href = "https://wa.me/6287822245787"; 
   } else {
